@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Дневник</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📚 Электронный КОТО</h1>
+
+    <input type="text" id="name" placeholder="Имя ученика">
+    <input type="number" id="grade" placeholder="Оценка">
+
+    <button onclick="addGrade()">Добавить</button>
+    <p id="average">Средний балл: 0</p>
+
+<button onclick="clearAll()">Очистить всё</button>
+
+    <ul id="list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>

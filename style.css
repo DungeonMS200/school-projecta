@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+#average {
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    border-radius: 5px;
+}
